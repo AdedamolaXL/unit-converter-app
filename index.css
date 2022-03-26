@@ -1,0 +1,32 @@
+body {
+  background-image: url(train-station.webp);
+  position:absolute;
+  background-color: #1F2937;
+  text-align: center;
+}
+
+header {
+  width: 1300px;
+  height: 150px;
+  background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+h1 {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 38px;
+/* identical to box height, or 173% */
+
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+}
+
+main {
+  width: 1300px;
+  height: 215px;
+  
+}
