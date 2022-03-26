@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Metric/Imperial unit converter</h1>
+    <input id="count-el" type="number" value = "0" oninput="convertValue(this.value)" onchange="convertValue(this.value)">
+  </header>
+  <main>
+    <h3>Length (Meters/Feet)</h3>
+    <p id="length-el"></p>
+    <h3>Volume (Litres/Gallons)</h3>
+    <p id="volume-el"></p>
+    <h3>Mass (Kilograms/Pounds)</h3>
+    <p id="mass-el"></p>
+    <script src="index.js"></script>
+  </main>
+</html>
